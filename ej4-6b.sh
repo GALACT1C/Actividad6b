@@ -1,6 +1,5 @@
 par=0
 impar=0
-dia="lunes"
 
 for i in $(cat numeros.txt);do
     resto=$(($i%2))
